@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://todoenplayeras.com.mx</loc> <!-- the url -->
+		<lastmod>2019-05-01</lastmod> <!-- optional YYYY-MM-DD -->
+		<changefreq>yearly</changefreq> <!-- optional always/hourly/daily/weekly/monthly/yearly/never -->
+		<priority>0.5</priority> <!-- optional 0.0 to 1.0 | default 0.5 -->
+	</url>
+</urlset>

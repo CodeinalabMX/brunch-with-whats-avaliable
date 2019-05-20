@@ -1,0 +1,7 @@
+# robotstxt.org/
+
+User-agent: *
+#Allow: #
+Disallow: /fonts/
+Disallow: /vendor/
+Sitemap: {!project-url!}/sitemap.xml

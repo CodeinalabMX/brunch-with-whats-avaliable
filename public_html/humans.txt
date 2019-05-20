@@ -1,0 +1,24 @@
+# humanstxt.org/
+
+/* TEAM */
+	Development: Alejandro De Alba S. [hEy]
+	Agency: Codeinalab
+	Twitter: @
+	Site: http://codeinalab.com
+	From: Guadalajara, Jalisco, México
+
+	Web design: {!designer-name!}
+	Twitter: @
+	Site: [!designer-url!]
+	From: Guadalajara, Jalisco, México
+
+/* THANKS */
+	
+
+/* SITE */
+	Last update: 2019/05/20
+	Language: Castellano
+	Doctype: HTML5
+	Standards: HTML5, CSS3
+	Components: HTML5, jQuery
+	Software: Sublime Text
