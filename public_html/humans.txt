@@ -2,14 +2,14 @@
 
 /* TEAM */
 	Development: Alejandro De Alba S. [hEy]
-	Agency: Codeinalab
+	Agency: {!development_name!}
 	Twitter: @
-	Site: http://codeinalab.com
+	Site: {!development_url!}
 	From: Guadalajara, Jalisco, México
 
-	Web design: {!designer-name!}
+	Web design: {!design_name!}
 	Twitter: @
-	Site: [!designer-url!]
+	Site: {!design_url!}
 	From: Guadalajara, Jalisco, México
 
 /* THANKS */

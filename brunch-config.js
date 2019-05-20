@@ -65,8 +65,8 @@ module.exports = {
       level: 2
     },
 
-    copycat:{
-	    'fonts/fontawesome' : [
+    copycat: {
+	    'fonts/fontawesome': [
 	      'node_modules/@fortawesome/fontawesome-free/webfonts'
 	    ],
 	    verbose : false,
@@ -74,6 +74,27 @@ module.exports = {
 	     * (only effective when using brunch watch) */
 	    onlyChanged: true
     },
+
+    keyword: {
+      filePattern: /\.(js|css|html|txt)$/,
+      //Extra files to process which `filePattern` wouldn't match
+      extraFiles: [
+        //'humans.txt', 
+        //'index.html'
+      ],
+      //By default keyword-brunch has these keywords:
+      //    {!version!}, {!name!}, {!date!}, {!timestamp!}
+      //using information from package.json
+      map: {
+        //project_name: '',
+        //project_url: '',
+        //development_name: '',
+        //development_url: '',
+        //design_name: '',
+        //design_url: '',
+       }
+    }
+    
 
   }
 

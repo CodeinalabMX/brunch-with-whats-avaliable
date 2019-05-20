@@ -4,4 +4,4 @@ User-agent: *
 #Allow: #
 Disallow: /fonts/
 Disallow: /vendor/
-Sitemap: {!project-url!}/sitemap.xml
+Sitemap: {!project_url!}/sitemap.xml
