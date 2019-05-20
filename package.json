@@ -1,0 +1,41 @@
+{
+  "name": "cdnlb-project",
+  "version": "0.1.0",
+  "description": "Codeinalab's project template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeinalabMX/brunch-with-whats-avaliable.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS",
+    "JS",
+    "Brunch",
+    "Build",
+    "Skeleton"
+  ],
+  "author": "hEy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeinalabMX/brunch-with-whats-avaliable/issues"
+  },
+  "homepage": "https://github.com/CodeinalabMX/brunch-with-whats-avaliable#readme",
+  "devDependencies": {
+    "brunch": "^2.10.17",
+    "clean-css-brunch": "^2.10.0",
+    "copycat-brunch": "^1.1.1",
+    "html5-boilerplate": "^7.1.0",
+    "keyword-brunch": "^2.0.0",
+    "postcss-brunch": "^2.10.1",
+    "terser-brunch": "^3.0.0",
+    "version-bump-prompt": "^5.0.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "jquery": "^3.4.1"
+  }
+}
