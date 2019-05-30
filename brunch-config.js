@@ -55,7 +55,9 @@ module.exports = {
     },
 
     postcss: {
-      
+      processors: [
+        require('postcss-css-variables')()
+      ]
     },
 
     cleancss: {
