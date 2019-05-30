@@ -1,7 +1,7 @@
 # humanstxt.org/
 
 /* TEAM */
-	Development: {!dv_name!} [{!dv_alias}]
+	Development: {!dv_name!} [{!dv_alias!}]
 	Agency: {!dv_agency!}
 	Twitter: @
 	Site: {!dv_url!}
