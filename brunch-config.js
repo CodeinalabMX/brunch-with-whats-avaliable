@@ -76,7 +76,7 @@ module.exports = {
     },
 
     keyword: {
-      filePattern: /\.(js|css|html|txt)$/,
+      filePattern: /\.(js|css|html|txt|xml)$/,
       //Extra files to process which `filePattern` wouldn't match
       extraFiles: [
         //'humans.txt', 
@@ -86,12 +86,14 @@ module.exports = {
       //    {!version!}, {!name!}, {!date!}, {!timestamp!}
       //using information from package.json
       map: {
-        //project_name: '',
-        //project_url: '',
-        //development_name: '',
-        //development_url: '',
-        //design_name: '',
-        //design_url: '',
+        project_name: '',
+        project_url: '',
+        dv_name: 'Alejandro De Alba S.',
+        dv_alias: 'hEy',
+        dv_agency: 'Codeinalab',
+        dv_url: 'http://codeinalab.com',
+        ds_agency: '',
+        ds_url: ''
        }
     }
     

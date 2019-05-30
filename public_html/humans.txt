@@ -1,15 +1,15 @@
 # humanstxt.org/
 
 /* TEAM */
-	Development: Alejandro De Alba S. [hEy]
-	Agency: {!development_name!}
+	Development: {!dv_name!} [{!dv_alias}]
+	Agency: {!dv_agency!}
 	Twitter: @
-	Site: {!development_url!}
+	Site: {!dv_url!}
 	From: Guadalajara, Jalisco, México
 
-	Web design: {!design_name!}
+	Web design: {!ds_agency!}
 	Twitter: @
-	Site: {!design_url!}
+	Site: {!ds_url!}
 	From: Guadalajara, Jalisco, México
 
 /* THANKS */
