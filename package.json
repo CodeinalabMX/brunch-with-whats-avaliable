@@ -33,6 +33,7 @@
     "html5-boilerplate": "^7.1.0",
     "keyword-brunch": "^2.0.0",
     "postcss-brunch": "^2.10.1",
+    "postcss-css-variables": "^0.12.0",
     "terser-brunch": "^3.0.0",
     "version-bump-prompt": "^5.0.1"
   },
