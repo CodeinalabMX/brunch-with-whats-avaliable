@@ -120,6 +120,9 @@
 /* Plugins style's override */
 
 /* Base */
+.test-class {
+	color: var(--complementary-color-1);
+}
 
 /* Layout */
 

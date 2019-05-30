@@ -21,5 +21,6 @@ const $ = require('jquery');
  */
 $(document).ready(function()
 {
-
+	console.log('jQuery is ready');
+	$('body').append('<p class="test-class">This is a test</p>');
 });
