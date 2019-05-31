@@ -13,19 +13,16 @@ module.exports = {
     
   },
 
-  npm: {
-
-  },
-
   files: {
 
     javascripts: {
     	joinTo: {
         'js/main.min.js': [
+          /^(?!node_modules|src\/plugins)/,
           'src/js/main_draft.js'
         ],
         'js/plugins.min.js': [
-          /^node_modules/
+          /^(node_modules|src\/plugins)/,
         ]
     	}
   	},
@@ -33,14 +30,21 @@ module.exports = {
     stylesheets: {
     	joinTo: {
     		'css/main.min.css': [
-          'src/css/main_draft.css'
+          /^(?!node_modules|src\/plugins)/,
+          'src/css/main_draft.css',
         ],
     		'css/plugins.min.css': [
-
+          /^(node_modules|src\/plugins)/,
         ]
     	}
     },
 
+  },
+
+  npm: {
+    styles: {
+      '@fortawesome/fontawesome-free': ['css/all.min.css']
+    }
   },
 
   plugins: {
@@ -88,8 +92,8 @@ module.exports = {
       //    {!version!}, {!name!}, {!date!}, {!timestamp!}
       //using information from package.json
       map: {
-        project_name: '',
-        project_url: '',
+        project_name: 'Brunch with what\'s avalailable',
+        project_url: 'https://github.com/CodeinalabMX/brunch-with-whats-avaliable',
         dv_name: 'Alejandro De Alba S.',
         dv_alias: 'hEy',
         dv_agency: 'Codeinalab',

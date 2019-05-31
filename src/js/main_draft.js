@@ -15,12 +15,10 @@
 /* Modules */
 const $ = require('jquery');
 
-
 /**
  * jQuery document ready
  */
 $(document).ready(function()
 {
-	console.log('jQuery is ready');
-	$('body').append('<p class="test-class">This is a test</p>');
+	$('body').append('<p class="test-class">$ <i class="fab fa-accessible-icon"></i> ready.</p>');
 });
