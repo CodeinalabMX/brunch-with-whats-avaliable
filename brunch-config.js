@@ -1,16 +1,18 @@
 module.exports = {
 
+	//optimize: false,
+  //
 	paths: {
   	public: 'public_html',
   	watched: ['src']
 	},
 
-	//optimize: false,
+  conventions: {
+    assets: /src\/assets\//,
+  },
 	
 	modules: {
-
 		wrapper: false
-    
   },
 
   files: {
@@ -102,8 +104,8 @@ module.exports = {
         dv_alias: 'hEy',
         dv_agency: 'Codeinalab',
         dv_url: 'http://codeinalab.com',
-        ds_agency: '',
-        ds_url: ''
+        ds_agency: 'Codeinalab',
+        ds_url: 'http://codeinalab.com'
        }
     }
     
