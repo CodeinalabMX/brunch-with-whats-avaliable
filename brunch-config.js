@@ -105,7 +105,8 @@ module.exports = {
         dv_agency: 'Codeinalab',
         dv_url: 'http://codeinalab.com',
         ds_agency: 'Codeinalab',
-        ds_url: 'http://codeinalab.com'
+        ds_url: 'http://codeinalab.com',
+        last_update: (new Date).toDateString()
        }
     }
     
