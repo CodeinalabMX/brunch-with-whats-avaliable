@@ -5,7 +5,7 @@ module.exports = {
   	watched: ['src']
 	},
 
-	optimize: true,
+	//optimize: false,
 	
 	modules: {
 
@@ -31,7 +31,6 @@ module.exports = {
     	joinTo: {
     		'css/main.min.css': [
           /^(?!node_modules|src\/plugins)/,
-          'src/css/main_draft.css',
         ],
     		'css/plugins.min.css': [
           /^(node_modules|src\/plugins)/,
@@ -43,7 +42,7 @@ module.exports = {
 
   npm: {
     styles: {
-      '@fortawesome/fontawesome-free': ['css/all.min.css']
+      '@fortawesome/fontawesome-free': ['css/all.css']
     }
   },
 
@@ -58,9 +57,13 @@ module.exports = {
       }
     },
 
-    postcss: {
+    postcss: { 
+      map: true,
       processors: [
-        require('postcss-css-variables')()
+        require('postcss-import')(),
+        require('postcss-css-variables')({
+                  preserve: true
+                })
       ]
     },
 
@@ -68,7 +71,8 @@ module.exports = {
       /* Ignored skip files from process
        * keep in mind that cleancss runs on files created by joinTo */
       //* ignored: /[regex]/,
-      level: 2
+      //sourceMap: true,
+      level: 2,
     },
 
     copycat: {
