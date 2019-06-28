@@ -13,10 +13,11 @@
  * 
  */
 /* Modules */
-//const $ = require('jquery');
+const $ = require('jquery');
 //const swiper = require('swiper');
 
 /* jQuery document ready */
-//$(document).ready(function()
-//{
-//});
+$(document).ready(function()
+{
+
+});
