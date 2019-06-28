@@ -1,7 +1,7 @@
 module.exports = {
 
 	//optimize: false,
-  //
+  
 	paths: {
   	public: 'public_html',
   	watched: ['src']
@@ -21,7 +21,6 @@ module.exports = {
     	joinTo: {
         'js/main.min.js': [
           /^(?!node_modules|src\/plugins)/,
-          'src/js/main_draft.js'
         ],
         'js/plugins.min.js': [
           /^(node_modules|src\/plugins)/,
@@ -44,7 +43,7 @@ module.exports = {
 
   npm: {
     styles: {
-      '@fortawesome/fontawesome-free': ['css/all.css']
+      //'@fortawesome/fontawesome-free': ['css/all.css'],
     }
   },
 
@@ -53,7 +52,7 @@ module.exports = {
   	terser: {
       /* Use ignored to skip files from process
        * keep in mind that terser runs on files created by joinTo */
-      //* ignored: /[regex]/,
+      //ignored: /[regex]/,
       output: {
         comments: /^!/
       }
@@ -72,31 +71,29 @@ module.exports = {
     cleancss: {
       /* Ignored skip files from process
        * keep in mind that cleancss runs on files created by joinTo */
-      //* ignored: /[regex]/,
+      //ignored: /[regex]/,
       //sourceMap: true,
       level: 2,
     },
 
     copycat: {
-	    'fonts/fontawesome': [
-	      'node_modules/@fortawesome/fontawesome-free/webfonts'
-	    ],
+      /* Copy a file if it's modified time has changed
+       * only effective when using brunch watch */
 	    verbose : false,
-	    /* Only copy a file if it's modified time has changed
-	     * (only effective when using brunch watch) */
-	    onlyChanged: true
+	    onlyChanged: true,
+	    //'fonts/fontawesome': ['node_modules/@fortawesome/fontawesome-free/webfonts'],
     },
 
     keyword: {
+      /* By default keyword-brunch has these keywords:
+       * {!version!}, {!name!}, {!date!}, {!timestamp!}
+       * from package.json data.
+       * Extra files to process which `filePattern` wouldn't match */
       filePattern: /\.(js|css|html|txt|xml)$/,
-      //Extra files to process which `filePattern` wouldn't match
       extraFiles: [
         //'humans.txt', 
         //'index.html'
       ],
-      //By default keyword-brunch has these keywords:
-      //    {!version!}, {!name!}, {!date!}, {!timestamp!}
-      //using information from package.json
       map: {
         project_name: 'Brunch with what\'s avalailable',
         project_url: 'https://github.com/CodeinalabMX/brunch-with-whats-avaliable',
