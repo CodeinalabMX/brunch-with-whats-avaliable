@@ -44,6 +44,7 @@ module.exports = {
   npm: {
     styles: {
       //'@fortawesome/fontawesome-free': ['css/all.css'],
+      //'swiper': ['dist/css/swiper.css'],
     }
   },
 

@@ -13,12 +13,10 @@
  * 
  */
 /* Modules */
-const $ = require('jquery');
+//const $ = require('jquery');
+//const swiper = require('swiper');
 
-/**
- * jQuery document ready
- */
-$(document).ready(function()
-{
-	$('body').append('<p class="test-class">$ <i class="fab fa-accessible-icon"></i> ready.</p>');
-});
+/* jQuery document ready */
+//$(document).ready(function()
+//{
+//});
