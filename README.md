@@ -19,10 +19,12 @@ Project keywords include: project's name and url's and development/design inform
 ## Usage
 Clone, update origin and push the feeling on.
 * Clone this repo
+
 `
 $ git clone --depth=1 https://github.com/CodeinalabMX/brunch-with-whats-avaliable.git Master
 $ cd Master
 `
+
 * Create new project repo.
 
 ⋅ Goto Github/BitBucket and create the actual project repo
