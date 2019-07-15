@@ -6,7 +6,7 @@ An application boilerplate to build a basic/scalable html5 project with classic 
 ## What is available
 Out of the box:
 * A customized `html5-boilerplate` ([https://html5boilerplate.com/]) setup
-* * SOME
+  * SOME
 * jQuery/fontAwesome/Swiper ready to use (or not, just read the comments in the code)
 * A CSS main draft using CSS Custom properties 	
 post-processed with `postcss-brunch` `postcss-import` `postcss-css-variables` ([https://postcss.org/]) and minification using `clean-css-brunch` ([https://www.cleancss.com/])
