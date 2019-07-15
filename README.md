@@ -1,12 +1,12 @@
 # Brunch with what's avaliable
-A Brunch.io skeleton for web applications.
+A [Brunch.io](http://brunch.io) custom front-end build setup for web applications.
 ## What is it
-An application boilerplate to build basic html5 projects out-of-the-box.
-This is a custom build setup using [Brunch.io](http://brunch.io) to fit Codeinalab's worflow, headstart a scalable project with with the ability to use classic components like jQuery and FontAwesome.
+An application boilerplate to build a basic/scalable html5 project with classic components out-of-the-box.
 
 ## What is available
 Out of the box:
-* A customized html index taken from `html5-boilerplate` ([https://html5boilerplate.com/])
+* A customized `html5-boilerplate` ([https://html5boilerplate.com/]) setup
+* * SOME
 * jQuery/fontAwesome/Swiper ready to use (or not, just read the comments in the code)
 * A CSS main draft using CSS Custom properties 	
 post-processed with `postcss-brunch` `postcss-import` `postcss-css-variables` ([https://postcss.org/]) and minification using `clean-css-brunch` ([https://www.cleancss.com/])
