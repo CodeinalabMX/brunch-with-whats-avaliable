@@ -1,6 +1,6 @@
 {
   "name": "brunch-with-whats-avaliable",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Codeinalab's project template",
   "main": "index.js",
   "scripts": {

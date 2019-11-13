@@ -1,4 +1,4 @@
-# Brunch with what's avaliable v0.6.1
+# Brunch with what's avaliable v0.7.0
 A [Brunch.io](http://brunch.io) custom build setup.
 
 ## What is it
