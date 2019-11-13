@@ -42,6 +42,10 @@ module.exports = {
   },
 
   npm: {
+    globals: {
+      $: 'jquery',
+      jQuery: 'jquery'
+    },
     styles: {
       //'@fortawesome/fontawesome-free': ['css/all.css'],
       //'swiper': ['dist/css/swiper.css'],
