@@ -47,8 +47,8 @@ module.exports = {
       jQuery: 'jquery'
     },
     styles: {
-      //'@fortawesome/fontawesome-free': ['css/all.css'],
-      //'swiper': ['dist/css/swiper.css'],
+      '@fortawesome/fontawesome-free': ['css/all.css'],
+      'swiper': ['dist/css/swiper.css'],
     }
   },
 
@@ -86,7 +86,7 @@ module.exports = {
        * only effective when using brunch watch */
 	    verbose : false,
 	    onlyChanged: true,
-	    //'fonts/fontawesome': ['node_modules/@fortawesome/fontawesome-free/webfonts'],
+	    'fonts/fontawesome': ['node_modules/@fortawesome/fontawesome-free/webfonts'],
     },
 
     keyword: {
@@ -94,10 +94,9 @@ module.exports = {
        * {!version!}, {!name!}, {!date!}, {!timestamp!}
        * from package.json data.
        * Extra files to process which `filePattern` wouldn't match */
-      filePattern: /\.(js|css|html|txt|xml)$/,
+      filePattern: /\.(js|css|html|txt|xml|php)$/,
       extraFiles: [
-        //'humans.txt', 
-        //'index.html'
+        'index.html'
       ],
       map: {
         project_name: 'Brunch with what\'s avalailable',
