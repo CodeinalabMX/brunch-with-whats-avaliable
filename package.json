@@ -1,12 +1,12 @@
 {
-  "name": "cdnlb-project",
+  "name": "brunch-with-whats-avaliable",
   "version": "0.6.1",
   "description": "Codeinalab's project template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "brunch": "brunch",
-    "vbump": "bump package.json package-lock.json"
+    "vbump": "bump package.json README.md"
   },
   "repository": {
     "type": "git",
