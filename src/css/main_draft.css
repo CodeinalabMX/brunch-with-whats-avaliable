@@ -19,8 +19,8 @@
  * 
  */
 
-/* CSS Custom Properties */
-@import '_project_variables.css';
+/* Magicssian CSS Custom Properties */
+/*@import '../plugins/Magicssian/_project_variables.css';*/
 
 
 /* Plugins style's override */
