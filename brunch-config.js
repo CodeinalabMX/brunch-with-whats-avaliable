@@ -48,7 +48,8 @@ module.exports = {
     },
     styles: {
       '@fortawesome/fontawesome-free': ['css/all.css'],
-      'swiper': ['dist/css/swiper.css'],
+      'slick-carousel': ['slick/slick.css'],
+      'lightcase': ['src/css/lightcase.css']
     }
   },
 
@@ -86,7 +87,8 @@ module.exports = {
        * only effective when using brunch watch */
 	    verbose : false,
 	    onlyChanged: true,
-	    'fonts/fontawesome': ['node_modules/@fortawesome/fontawesome-free/webfonts'],
+	    'webfonts': ['node_modules/@fortawesome/fontawesome-free/webfonts'],
+      'webfonts': ['node_modules/lightcase/src/fonts']
     },
 
     keyword: {
@@ -101,8 +103,8 @@ module.exports = {
       map: {
         project_name: 'Brunch with what\'s avalailable',
         project_url: 'https://github.com/CodeinalabMX/brunch-with-whats-avaliable',
-        dv_name: 'Alejandro De Alba S.',
-        dv_alias: 'hEy',
+        dv_name: '',
+        dv_alias: 'A59327424',
         dv_agency: 'Codeinalab',
         dv_url: 'http://codeinalab.com',
         ds_agency: 'Codeinalab',
