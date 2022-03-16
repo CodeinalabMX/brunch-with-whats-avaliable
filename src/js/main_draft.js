@@ -6,13 +6,12 @@
  *
  * TOC:
  * 
- * @todo Add each module/section needed
- * 
  */
-//const swiper = require('swiper');
+//const slick = require('slick-carousel');
+//const lightcase = require('lightcase');
 
 /* jQuery document ready */
 $(document).ready(function()
 {
-	console.log('jQuery ready');
+  console.log('jQuery ready');
 });
