@@ -15,8 +15,6 @@
  * * Footer
  * Media queries
  * 
- * @todo Add each module/section needed
- * 
  */
 
 /* Magicssian CSS Custom Properties */
@@ -24,28 +22,21 @@
 
 
 /* Plugins style's override */
-/* Fontawesome rebase font file urls */
+/* * Lightcase font path rebase */
 @font-face {
-  font-family: 'Font Awesome 5 Brands';
-  src: url("../fonts/fontawesome/fa-brands-400.eot");
-  src: url("../fonts/fontawesome/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome/fa-brands-400.woff2") format("woff2"), url("../fonts/fontawesome/fa-brands-400.woff") format("woff"), url("../fonts/fontawesome/fa-brands-400.ttf") format("truetype"), url("../fonts/fontawesome/fa-brands-400.svg#fontawesome") format("svg"); }
-
-@font-face {
-  font-family: 'Font Awesome 5 Free';
-  src: url("../fonts/fontawesome/fa-regular-400.eot");
-  src: url("../fonts/fontawesome/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome/fa-regular-400.woff2") format("woff2"), url("../fonts/fontawesome/fa-regular-400.woff") format("woff"), url("../fonts/fontawesome/fa-regular-400.ttf") format("truetype"), url("../fonts/fontawesome/fa-regular-400.svg#fontawesome") format("svg"); }
-
-@font-face {
-  font-family: 'Font Awesome 5 Free';
-  src: url("../fonts/fontawesome/fa-solid-900.eot");
-  src: url("../fonts/fontawesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome/fa-solid-900.woff2") format("woff2"), url("../fonts/fontawesome/fa-solid-900.woff") format("woff"), url("../fonts/fontawesome/fa-solid-900.ttf") format("truetype"), url("../fonts/fontawesome/fa-solid-900.svg#fontawesome") format("svg"); }
+  font-family: 'lightcase';
+  src: url("../webfonts/lightcase.eot?55356177");
+  src: url("../webfonts/lightcase.eot?55356177#iefix") format("embedded-opentype"), 
+       url("../webfonts/lightcase.woff?55356177") format("woff"), 
+       url("../webfonts/lightcase.ttf?55356177") format("truetype"), 
+       url("../webfonts/lightcase.svg?55356177#lightcase") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Base */
-.test-class {
-  color: var(--complementary-color-1);
-}
-.new-class {
-  color: black;
+main p {
+  color: orange;
 }
 
 /* Layout */
