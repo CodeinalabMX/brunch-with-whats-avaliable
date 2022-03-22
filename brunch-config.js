@@ -87,8 +87,10 @@ module.exports = {
        * only effective when using brunch watch */
 	    verbose : false,
 	    onlyChanged: true,
-	    'webfonts': ['node_modules/@fortawesome/fontawesome-free/webfonts'],
-      'webfonts': ['node_modules/lightcase/src/fonts']
+	    'webfonts': [
+        'node_modules/@fortawesome/fontawesome-free/webfonts',
+        'node_modules/lightcase/src/fonts'
+      ],
     },
 
     keyword: {
