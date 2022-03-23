@@ -15,21 +15,28 @@ A custom configuration to quick-build a basic/scalable html5 front-end with clas
 * A npm script to manage [semantic versioning](https://semver.org/) with `version-bump-prompt` library. 
 
 ## Usage
-- Clone the repo and update your git remotes.
+- Clone the repo, update project's info and re-init.
 
 ```
+  # Clone
   $ git clone https://github.com/CodeinalabMX/brunch-with-whats-avaliable.git Master
   $ cd Master
-  $ git remote remove origin
-  $ git remote add origin https://[github.com/bitbucket.org]/[the-actual-project-repo].git
+
 ```
 
 - Update the following: 
 
-  * Project's name, description, etc. on package.json. 
-  * Keywords map on brunch-config.js. 
+  * Project's name, description, repository, etc. on package.json. 
+  * Keyword map on brunch-config.js. 
+  * This README
 
-- Install npm dependencies and use brunch's watch/build commands. 
+  # Reinit
+  $ rm -r .git
+  $ git init
+  $ git remote add origin https://[github.com/bitbucket.org]/[the-actual-project-repo].git
+```
+
+- Install npm dependencies, use brunch's watch/build commands. 
 
 ```
 $ npm i
