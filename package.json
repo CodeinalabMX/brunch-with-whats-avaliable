@@ -1,12 +1,12 @@
 {
   "name": "brunch-with-whats-avaliable",
   "version": "0.7.0",
-  "description": "Codeinalab's project template",
+  "description": "Brunch skeleton",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "brunch": "brunch",
-    "vbump": "bump package.json README.md"
+    "vbump": "bump package.json package-lock.json README.md"
   },
   "repository": {
     "type": "git",
@@ -20,13 +20,14 @@
     "Build",
     "Skeleton"
   ],
-  "author": "hEy",
+  "author": "A593275424",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CodeinalabMX/brunch-with-whats-avaliable/issues"
   },
   "homepage": "https://github.com/CodeinalabMX/brunch-with-whats-avaliable#readme",
   "devDependencies": {
+    "auto-reload-brunch": "^3.0.1",
     "brunch": "^4.0.0",
     "clean-css-brunch": "^3.0.0",
     "copycat-brunch": "^1.1.1",
@@ -40,7 +41,6 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.0.0",
-    "auto-reload-brunch": "^3.0.1",
     "jquery": "^3.6.0",
     "lightcase": "^2.5.0"
   }
